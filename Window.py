@@ -10,4 +10,4 @@ while RUNNING:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             RUNNING = False
-    
+    mousePos = pygame.mouse.get_pos()
