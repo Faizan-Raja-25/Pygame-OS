@@ -5,16 +5,10 @@ pygame.display.set_caption("PYGAME OS v0.1")
 CLOCK = pygame.time.Clock()
 FRAMERATE_CAP = 60
 
-Windows = {
-    "Welcome": {
-        "Pos": (200,200),
-        "Size": (200,200)
+class Window:
+    def __init__(self): {
+        
     }
-}
-
-def initWindow(pos, size): {
-
-}
 
 
 RUNNING = True
